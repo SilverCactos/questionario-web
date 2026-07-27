@@ -1,2 +1,7 @@
-    Antes de pular de cabeça na programação em Python é bom ter na cabeça alguns conceitos e conhecimentos, neste resumos você vai ver todos eles.
-    Uma das coisas importantes de se saber é o que forma uma linguagem, não só a linguagem de programação como todas as linguagens que usamos. Toda linguagem precisa dos seguintes elementos: sintaxe, sêmantica,  
+Antes de pular de cabeça na programação em Python é bom ter na cabeça alguns conceitos e conhecimentos, neste resumos você vai ver todos eles.
+Uma das coisas importantes de se saber é o que forma uma linguagem, não só a linguagem de programação como todas as linguagens que usamos. Toda linguagem precisa dos seguintes elementos: sintaxe, sêmantica, um alfabeto e um léxico. 
+Sintaxe é o conjunto de regras que define como escrever corretamente em uma linguagem. Exemplo: em Python, print("Olá") tem uma sintaxe válida, enquanto print "Olá" não tem. 
+Semântica é o significado que um código ou frase possui dentro de uma linguagem. Um código pode estar escrito corretamente (sintaxe certa), mas ter um significado errado. 
+O alfabeto é o conjunto de símbolos e caracteres que uma linguagem permite usar. Em programação, inclui letras, números e símbolos como +, =, {}, ().
+O léxico é o conjunto de palavras e símbolos que possuem significado dentro de uma linguagem. Em Python, palavras como if, while, def e print fazem parte do léxico da linguagem.
+ 

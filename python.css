@@ -1,7 +1,12 @@
 
-#resumos {
+#botoes2 {
     display: none;
 }
+
+#textoresumo {
+    display: none;
+}
+
 
 /*Estilo*/
 
@@ -54,6 +59,7 @@ h1 {
     background-color: rgb(231, 182, 45);
     color:rgb(222, 240, 255);
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 #questionario {
@@ -67,6 +73,7 @@ h1 {
     background-color: rgb(25, 63, 107);
     color:rgb(222, 240, 255);
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 #Bresumos:hover {
@@ -79,7 +86,7 @@ h1 {
 
 /*Botões Resumo*/
 
-#resumos {
+#botoes2 {
     justify-content: center;
     align-items: center;
     margin-top: 15vh;
@@ -99,6 +106,7 @@ h1 {
     background-color: rgb(199, 146, 1);
     color: white;
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 #resumo2 {
@@ -112,6 +120,7 @@ h1 {
     background-color: rgb(224, 172, 27);
     color: white;
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 #resumo3 {
@@ -125,6 +134,7 @@ h1 {
     background-color: rgb(255, 200, 49);
     color: white;
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 #voltar {
@@ -138,6 +148,7 @@ h1 {
     background-color: rgb(255, 207, 76);
     color: white;
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 #resumo1:hover {
