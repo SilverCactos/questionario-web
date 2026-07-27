@@ -1,7 +1,18 @@
+
+#resumos {
+    display: none;
+}
+
+/*Estilo*/
+
+/*Fundo*/
+
 body {
     background-color: rgb(255, 255, 150);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/*Titulo da página*/
 
 h1 {
     background-color: white;
@@ -20,7 +31,9 @@ h1 {
     text-align: center;
 }
 
-.botoes {
+/*primeiros botoes*/
+
+#botoes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +43,7 @@ h1 {
     height: 35vh;
 }
 
-#resumos {
+#Bresumos {
     width: 30vh;  
     height: 25vh;
     text-align: start;
@@ -54,4 +67,91 @@ h1 {
     background-color: rgb(25, 63, 107);
     color:rgb(222, 240, 255);
     cursor: pointer;
+}
+
+#Bresumos:hover {
+    transform: scale(1.1);
+}
+
+#questionario:hover {
+    transform: scale(1.1);
+}
+
+/*Botões Resumo*/
+
+#resumos {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    gap: 20vh;
+    background-color: white;
+    height: 35vh;
+}
+
+#resumo1 {
+    width: 25vh;  
+    height: 20vh;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    border: 0vh white;
+    border-radius: 4vh;
+    background-color: rgb(199, 146, 1);
+    color: white;
+    cursor: pointer;
+}
+
+#resumo2 {
+    width: 25vh;  
+    height: 20vh;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    border: 0vh white;
+    border-radius: 4vh;
+    background-color: rgb(224, 172, 27);
+    color: white;
+    cursor: pointer;
+}
+
+#resumo3 {
+    width: 25vh;  
+    height: 20vh;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    border: 0vh white;
+    border-radius: 4vh;
+    background-color: rgb(255, 200, 49);
+    color: white;
+    cursor: pointer;
+}
+
+#voltar {
+    width: 25vh;  
+    height: 20vh;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    border: 0vh white;
+    border-radius: 4vh;
+    background-color: rgb(255, 207, 76);
+    color: white;
+    cursor: pointer;
+}
+
+#resumo1:hover {
+    transform: scale(1.1);
+}
+
+#resumo2:hover {
+    transform: scale(1.1);
+}
+
+#resumo3:hover {
+    transform: scale(1.1);
+}
+
+#voltar:hover {
+    transform: scale(1.1);
 }

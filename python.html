@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="python.js"></script>
     <link rel="stylesheet" href="python.css">
     <title>Python</title>
 </head>
@@ -13,10 +12,25 @@
         <p id="texto1">Selecione seu caminho:</p>
     </div>
 
-    <div class="botoes">
-        <button id="resumos">Resumos</button>
+    <div id="botoes">
+        
+        <button onclick="botaoR()" id="Bresumos">Resumos</button>
+
         <button id="questionario">Questionário</button>
+
+    </div>
+
+    <div id="resumos">
+        <button id="resumo1">Básico Pré-Python</button>
+        <button id="resumo2">Comandos Simples</button>
+        <button id="resumo3">Cores e Formatos</button>
+        <button onclick="voltar()" id="voltar">Voltar</button>
+
+        <div id="textos">
+            <p id="texto1"></p>
+
     </div>
     
+    <script src="python.js"></script>
 </body>
 </html>
