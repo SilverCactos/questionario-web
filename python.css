@@ -57,7 +57,7 @@ h1 {
     border: 0vh white;
     border-radius: 4vh;
     background-color: rgb(231, 182, 45);
-    color:rgb(222, 240, 255);
+    color: white;
     cursor: pointer;
     transition: transform 0.3s;
 }
@@ -165,4 +165,17 @@ h1 {
 
 #voltar:hover {
     transform: scale(1.1);
+}
+
+/*Resumo 1*/
+
+#textoresumo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textoresumo1 {
+    font-size: 4vh;
+
 }

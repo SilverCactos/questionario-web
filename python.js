@@ -4,6 +4,12 @@ function voltar() {
     document.getElementById("textoresumo").style.display = "none";
 }
 
+function voltar1() {
+    document.getElementById("botoes").style.display = "flex";
+    document.getElementById("botoes2").style.display = "none";
+    document.getElementById("textoresumo").style.display = "none";
+}
+
 function botaoR() {
     document.getElementById("botoes2").style.display = "flex";
     document.getElementById("botoes").style.display = "none";
