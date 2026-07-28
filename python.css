@@ -13,7 +13,7 @@
 /*Fundo*/
 
 body {
-    background-color: rgb(255, 255, 150);
+    background-color: rgb(255, 243, 177);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -23,14 +23,17 @@ h1 {
     background-color: white;
     color: rgb(28, 49, 109);
     font-size: 9vh;
+    box-shadow: 0px 4px 10px rgb(255, 215, 105);
+    border-radius: 20px;
 }
 
 
 #texto1 {
     color: rgb(28, 49, 109);
-    text-decoration: underline;
+    text-decoration: ;
     font-size: 5vh;
 }
+
 
 .textos {
     text-align: center;
@@ -56,10 +59,19 @@ h1 {
     font-size: 5vh;
     border: 0vh white;
     border-radius: 4vh;
-    background-color: rgb(231, 182, 45);
-    color: white;
+    background-color: rgb(253, 194, 30);
+    color: #fde297;
     cursor: pointer;
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgb(187, 142, 20);
+}
+
+#livro {
+    width: 20vh;
+    height: 20vh;
 }
 
 #questionario {
@@ -70,10 +82,19 @@ h1 {
     font-size: 5vh;
     border: 0vh white;
     border-radius: 4vh;
-    background-color: rgb(25, 63, 107);
-    color:rgb(222, 240, 255);
+    background-color: rgb(14, 61, 114);
+    color: #7a9cc4;
     cursor: pointer;
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgb(7, 40, 75);
+}
+
+#ponto {
+    width: 15vh;
+    height: 15vh;
 }
 
 #Bresumos:hover {
@@ -173,6 +194,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 #textoresumo1 {
