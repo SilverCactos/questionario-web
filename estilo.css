@@ -1,12 +1,17 @@
-body {
-    background: linear-gradient(rgb(187, 214, 255), rgb(87, 174, 255));
+html, body {
+    min-height: 100%;
     margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgb(187, 214, 255), rgb(87, 174, 255));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #titulo {
     background-color: aliceblue;
     border-radius: 20px;
-    box-shadow: 0px 4px 10px rgb(42, 152, 255);
 }
 
 h1 {
@@ -20,7 +25,6 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 20vh;
-    margin-bottom: -25vh;
 }
 
 #python {
@@ -42,8 +46,11 @@ h1 {
         white 65%,
         rgb(70, 194, 243) 35%
     );
+    box-shadow: 0px 4px 10px rgb(39, 145, 187);
     padding-bottom: 3vh;
     padding-top: 2vh;
+    z-index: 2
+    
 }
 
 
@@ -66,8 +73,10 @@ h1 {
         white 65%,
         rgb(46, 105, 231) 35%
     );
+    box-shadow: 0px 4px 10px rgb(26, 78, 190);
     padding-bottom: 3vh;
     padding-top: 2vh;
+    z-index: 2;
 }
 
 
@@ -90,8 +99,10 @@ h1 {
         white 65%,
         rgb(45, 161, 228) 35%
     );
+    box-shadow: 0px 4px 10px rgb(22, 128, 189);
     padding-bottom: 3vh;
     padding-top: 2vh;
+    z-index: 2;
 }
 
 #python:hover {
@@ -106,12 +117,48 @@ h1 {
     transform: scale(1.1);
 }
 
-#onda {
-    display: block;
-    width: 100%;
-    height: 73vh;
-
+#espaço {
+    height: 15vh;
 }
+
+#explicação {
+    background-color: white;
+    display:flex;
+    gap: 30vh;
+    justify-content: center;
+    padding: 3vh;
+}
+
+#Resumos {
+    background-color: rgb(28, 65, 228);
+    border-radius: 10%;
+    height: 30vh;
+    width: 30vh;
+    text-align: center;
+    justify-content: center;
+}
+
+#T1 {
+    font-size: 4vh;
+    
+}
+
+#T2 {
+    font-size: 4vh;
+}
+
+
+
+#Questões {
+    background-color: rgb(28, 65, 228);
+    border-radius: 10%;
+    height: 30vh;
+    width: 30vh;
+    text-align: center;
+    justify-content: center;
+}
+
+
 
 /*Imagens*/
 
