@@ -29,7 +29,7 @@
             <img id="livro" src="livro.png">
         </button>
 
-        <button id="questionario">
+        <button onclick="botaoQ()" id="Bquestionario">
             Questionário
 
             <img id="ponto" src="ponto.png">
@@ -74,6 +74,24 @@
             <button onclick="voltar3()" id="voltar3">Voltar</button>
         </div>
 
+    </div>
+
+    <div id="questionario">
+        <p id="pergunta1">Pergunta</p>
+        <button onclick="respostaC()" id="resposta1">
+            resposta1
+        </button>
+
+        <button onclick="respostaE()" id="resposta2">
+            resposta2
+        </button>
+
+        <div id="certo">
+            <p>Ta certo</p>
+        </div>
+        <div id="errado">
+            <p>Ta errado</p>
+        </div>
     </div>
     
     <script src="python.js"></script>

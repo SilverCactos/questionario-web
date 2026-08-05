@@ -15,6 +15,18 @@
     display: none;
 }
 
+#questionario {
+    display: none;
+}
+
+#certo {
+    display: none;
+}
+
+#errado {
+    display: none;
+}
+
 /*Estilo*/
 
 /*Fundo*/
@@ -120,7 +132,7 @@ h1 {
     height: 20vh;
 }
 
-#questionario {
+#Bquestionario {
     width: 30vh;  
     height: 25vh;
     text-align: start;
@@ -147,7 +159,7 @@ h1 {
     transform: scale(1.1);
 }
 
-#questionario:hover {
+#Bquestionario:hover {
     transform: scale(1.1);
 }
 
